@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">FJV</div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="dev container fade-in">
+            <div class="dev-texto">
+                <h1>Francisco Veras</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur non inventore exercitationem incidunt quidem placeat officia aperiam quaerat cumque quis odit corporis explicabo impedit vero laborum aliquid.</p>
+                <a class="botao-contato" href="#contato">Entre em contato</a>
+            </div>
+            <div class=dev-imagem>
+                <img class="dev-perfil" src="./img/image.jpg" alt="Imagem habilidades">
+            </div>
+        </section>
+
+        <section id="skills" class="container fade-in">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-item">
+                    <div class="skill-icon">&#128187;</div>
+                    <h3>FrontEnd</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="container fade-in">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <h3 class="titulo-projeto">Site de Ecommerce</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quia, perferendis sed expedita facilis doloremque.</p>
+                    <div class="projeto-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato fade-in">
+            <h2 class="titulo-contato">Contate-me!</h2>
+            <form class="contato-form">
+                <div class="grupo-form">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="grupo-form">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="grupo-form">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+
+        <footer>
+            <ul class="icones-footer">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            <p>&copy; 2024 Francisco Veras. Todos os direitos reservados.</p>
+        </footer>
+    </main>
+</body>
+
+</html>
